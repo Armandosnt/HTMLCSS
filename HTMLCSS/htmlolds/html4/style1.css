@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.size{
+    width: 250px;
+    height: 400px;
+    font-size: 72px;
+}
+.block1{
+    background-color: red;
+}
+.block2{
+    background-color: blue;
+}
+.block3{
+    background-color: yellow;
+}
