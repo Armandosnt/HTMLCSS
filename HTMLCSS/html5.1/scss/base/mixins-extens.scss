@@ -1,0 +1,12 @@
+%flex-x{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin text-style($fw, $fz, $ln, $ls, $color){
+    font-weight: $fw;
+    font-size: $fz;
+    line-height: $ln;
+    letter-spacing: $ls;
+    color: $color;
+}
