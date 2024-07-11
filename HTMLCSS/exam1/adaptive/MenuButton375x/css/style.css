@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.part1 {
+  width: 375px;
+  height: 812px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.part2 {
+  width: 375px;
+  height: 812px;
+  background: url("../img/v202_214.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.part3 {
+  width: 375px;
+  height: 812px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.part4 {
+  width: 22px;
+  height: 22px;
+  background: url("../img/v202_216.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 46px;
+  left: 323px;
+  overflow: hidden;
+}
+.part5 {
+  width: 27px;
+  height: 4px;
+  background: rgba(130,130,130,1);
+  opacity: 1;
+  position: absolute;
+  bottom: 10px;
+  left: -3px;
+  transform: rotate(-45deg);
+  overflow: hidden;
+}
+.part6 {
+  width: 27px;
+  height: 4px;
+  background: rgba(130,130,130,1);
+  opacity: 1;
+  position: absolute;
+  bottom: 10px;
+  left: -3px;
+  transform: rotate(-135deg);
+  overflow: hidden;
+}
+.part7 {
+  width: 103px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 46px;
+  left: 30px;
+  font-family: Poppins;
+  font-weight: SemiBold;
+  font-size: 34px;
+  opacity: 1;
+  text-align: left;
+}
+.part8 {
+  width: 109px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 127px;
+  left: 30px;
+  font-family: Poppins;
+  font-weight: SemiBold;
+  font-size: 34px;
+  opacity: 1;
+  text-align: left;
+}
+.part9 {
+  width: 146px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 227px;
+  left: 30px;
+  font-family: Poppins;
+  font-weight: SemiBold;
+  font-size: 34px;
+  opacity: 1;
+  text-align: left;
+}
+.part10 {
+  width: 105px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 318px;
+  left: 30px;
+  font-family: Poppins;
+  font-weight: SemiBold;
+  font-size: 34px;
+  opacity: 1;
+  text-align: left;
+}
+.part11 {
+  width: 68px;
+  height: 17px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 616px;
+  left: 101px;
+  overflow: hidden;
+}

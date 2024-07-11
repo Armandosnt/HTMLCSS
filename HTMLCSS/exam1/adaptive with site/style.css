@@ -1,0 +1,1151 @@
+.legal-consultant {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.legal-consultant .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 3609px;
+  position: relative;
+}
+
+.legal-consultant .overlap {
+  position: absolute;
+  width: 1501px;
+  height: 1810px;
+  top: 0;
+  left: 0;
+}
+
+.legal-consultant .section-why {
+  position: absolute;
+  width: 1440px;
+  height: 786px;
+  top: 1024px;
+  left: 0;
+  background-color: #f2f6ff;
+}
+
+.legal-consultant .our-feature {
+  position: absolute;
+  width: 545px;
+  height: 534px;
+  top: 126px;
+  left: 639px;
+}
+
+.legal-consultant .overlap-group {
+  position: relative;
+  width: 693px;
+  height: 682px;
+  top: -56px;
+  left: -74px;
+}
+
+.legal-consultant .feature {
+  position: absolute;
+  width: 407px;
+  height: 403px;
+  top: 279px;
+  left: 286px;
+}
+
+.legal-consultant .feature-2 {
+  display: flex;
+  flex-direction: column;
+  width: 252px;
+  align-items: flex-start;
+  gap: 18px;
+  padding: 24px;
+  position: absolute;
+  top: 337px;
+  left: 76px;
+  background-color: #fbfbfb;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 18px 58px 16px #0000000f;
+}
+
+.legal-consultant .img {
+  position: relative;
+  width: 37px;
+  height: 37px;
+}
+
+.legal-consultant .frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: -67px;
+}
+
+.legal-consultant .the-first {
+  position: relative;
+  width: 271px;
+  margin-top: -1px;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 700;
+  color: var(--text);
+  font-size: 22px;
+  letter-spacing: 0.3px;
+  line-height: 22px;
+}
+
+.legal-consultant .microsoft-patch-mana {
+  position: relative;
+  width: 210px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: var(--neutral-grey-5);
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+}
+
+.legal-consultant .feature-3 {
+  display: flex;
+  flex-direction: column;
+  width: 255px;
+  height: 253px;
+  align-items: flex-start;
+  gap: 18px;
+  padding: 24px;
+  position: absolute;
+  top: 56px;
+  left: 360px;
+  background-color: #fbfbfb;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 18px 58px 16px #0000000f;
+}
+
+.legal-consultant .frame-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: -62px;
+}
+
+.legal-consultant .text-wrapper {
+  position: relative;
+  width: 269px;
+  margin-top: -1px;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 700;
+  color: var(--text);
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+}
+
+.legal-consultant .p {
+  position: relative;
+  width: 206px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: var(--neutral-grey-5);
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+}
+
+.legal-consultant .feature-4 {
+  position: absolute;
+  width: 404px;
+  height: 401px;
+  top: 0;
+  left: 0;
+}
+
+.legal-consultant .title {
+  position: absolute;
+  width: 423px;
+  height: 302px;
+  top: 174px;
+  left: 167px;
+}
+
+.legal-consultant .overlap-2 {
+  position: relative;
+  width: 419px;
+  height: 302px;
+}
+
+.legal-consultant .text-wrapper-2 {
+  position: absolute;
+  width: 419px;
+  top: 0;
+  left: 0;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 700;
+  color: var(--neutral-grey-7);
+  font-size: 48px;
+  letter-spacing: 0.32px;
+  line-height: normal;
+}
+
+.legal-consultant .text-wrapper-3 {
+  position: absolute;
+  width: 384px;
+  top: 158px;
+  left: 8px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--neutral-grey-5);
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  line-height: 36px;
+}
+
+.legal-consultant .section-hero {
+  position: absolute;
+  width: 1501px;
+  height: 974px;
+  top: 50px;
+  left: 0;
+}
+
+.legal-consultant .overlap-group-2 {
+  position: relative;
+  height: 974px;
+}
+
+.legal-consultant .rectangle {
+  position: absolute;
+  width: 1440px;
+  height: 924px;
+  top: 50px;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.legal-consultant .hero-image {
+  position: absolute;
+  width: 811px;
+  height: 974px;
+  top: 0;
+  left: 690px;
+}
+
+.legal-consultant .group {
+  position: absolute;
+  width: 811px;
+  height: 811px;
+  top: 50px;
+  left: 0;
+  background-color: #6da7ff1a;
+  border-radius: 405.5px;
+}
+
+.legal-consultant .ellipse {
+  position: relative;
+  width: 633px;
+  height: 633px;
+  top: 6px;
+  left: 68px;
+  background-color: #6da7ff1a;
+  border-radius: 316.61px;
+}
+
+.legal-consultant .creating-a-brand {
+  position: absolute;
+  width: 549px;
+  height: 974px;
+  top: 0;
+  left: 84px;
+  object-fit: cover;
+}
+
+.legal-consultant .hero-title {
+  position: absolute;
+  width: 895px;
+  height: 728px;
+  top: 200px;
+  left: 161px;
+}
+
+.legal-consultant .your-solution-legal {
+  position: absolute;
+  width: 891px;
+  top: 0;
+  left: 0;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 700;
+  color: #094b72;
+  font-size: 90px;
+  letter-spacing: 1.8px;
+  line-height: 108px;
+}
+
+.legal-consultant .text-wrapper-4 {
+  position: absolute;
+  width: 590px;
+  height: 76px;
+  top: 262px;
+  left: 7px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 500;
+  color: var(--neutral-grey-6);
+  font-size: 24px;
+  letter-spacing: 0.5px;
+  line-height: 37.9px;
+}
+
+.legal-consultant .group-2 {
+  position: absolute;
+  width: 542px;
+  height: 153px;
+  top: 575px;
+  left: 5px;
+}
+
+.legal-consultant .group-3 {
+  position: absolute;
+  width: 238px;
+  height: 88px;
+  top: 65px;
+  left: 0;
+}
+
+.legal-consultant .text-wrapper-5 {
+  position: absolute;
+  width: 540px;
+  height: 31px;
+  top: 0;
+  left: 0;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: var(--neutral-grey-5);
+  font-size: 22px;
+  letter-spacing: 0.88px;
+  line-height: 30.9px;
+}
+
+.legal-consultant .button-get-started {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  width: 192px;
+  height: 80px;
+  top: 580px;
+  left: 165px;
+}
+
+.legal-consultant .div-wrapper {
+  position: relative;
+  width: 190px;
+  height: 80px;
+  background-color: #094b72;
+  border-radius: 8px;
+}
+
+.legal-consultant .text-wrapper-6 {
+  position: absolute;
+  width: 118px;
+  height: 22px;
+  top: 29px;
+  left: 36px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: var(--neutral-grey-1);
+  font-size: 16px;
+  letter-spacing: 1.28px;
+  line-height: 22.5px;
+}
+
+.legal-consultant .group-4 {
+  position: absolute;
+  width: 582px;
+  height: 314px;
+  top: 874px;
+  left: 758px;
+}
+
+.legal-consultant .navbar {
+  position: absolute;
+  width: 1110px;
+  height: 100px;
+  top: 0;
+  left: 165px;
+  background-color: var(--neutral-white);
+}
+
+.legal-consultant .navbar-2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 56px;
+  padding: 12px;
+  position: absolute;
+  top: 26px;
+  left: 488px;
+}
+
+.legal-consultant .text-wrapper-7 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--neutral-grey-7);
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  line-height: 23px;
+  white-space: nowrap;
+}
+
+.legal-consultant .group-5 {
+  position: absolute;
+  width: 65px;
+  height: 99px;
+  top: 1px;
+  left: 1045px;
+}
+
+.legal-consultant .logo {
+  position: absolute;
+  width: 144px;
+  height: 36px;
+  top: 32px;
+  left: 7px;
+}
+
+.legal-consultant .overlap-wrapper {
+  position: absolute;
+  width: 436px;
+  height: 40px;
+  top: 194px;
+  left: 155px;
+}
+
+.legal-consultant .overlap-3 {
+  position: relative;
+  width: 434px;
+  height: 40px;
+  background-color: #e6f6ff;
+  border-radius: 26.5px;
+}
+
+.legal-consultant .overlap-group-wrapper {
+  position: absolute;
+  width: 88px;
+  height: 28px;
+  top: 6px;
+  left: 6px;
+}
+
+.legal-consultant .overlap-group-3 {
+  position: relative;
+  width: 86px;
+  height: 28px;
+  background-color: #094b72;
+  border-radius: 26.5px;
+}
+
+.legal-consultant .text-wrapper-8 {
+  position: absolute;
+  width: 55px;
+  height: 19px;
+  top: 0;
+  left: 16px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.legal-consultant .stay-connected-to {
+  position: absolute;
+  top: 2px;
+  left: 101px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #193e6c;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.legal-consultant .achievement {
+  position: absolute;
+  width: 1440px;
+  height: 356px;
+  top: 1810px;
+  left: 0;
+}
+
+.legal-consultant .overlap-4 {
+  position: relative;
+  height: 356px;
+}
+
+.legal-consultant .BG {
+  position: absolute;
+  width: 1440px;
+  height: 356px;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.legal-consultant .patterns-wrapper {
+  position: relative;
+  height: 376px;
+  background-color: #094b72;
+}
+
+.legal-consultant .patterns {
+  position: absolute;
+  width: 1440px;
+  height: 356px;
+  top: 0;
+  left: 0;
+}
+
+.legal-consultant .counts {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 15px;
+  position: absolute;
+  top: 205px;
+  left: 308px;
+}
+
+.legal-consultant .div-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.legal-consultant .number {
+  position: relative;
+  width: 255px;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 800;
+  color: var(--default-white);
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 64px;
+}
+
+.legal-consultant .label {
+  position: relative;
+  width: 255px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--default-white);
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.05px;
+  line-height: 32px;
+}
+
+.legal-consultant .divider {
+  position: relative;
+  width: 1px;
+  height: 96px;
+  object-fit: cover;
+}
+
+.legal-consultant .label-2 {
+  position: relative;
+  width: 255px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--default-white);
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  line-height: 32px;
+}
+
+.legal-consultant .section-heading {
+  display: flex;
+  flex-direction: column;
+  width: 730px;
+  align-items: flex-start;
+  gap: 8px;
+  position: absolute;
+  top: 53px;
+  left: 355px;
+}
+
+.legal-consultant .section-title-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.legal-consultant .section-title {
+  position: relative;
+  width: 730px;
+  margin-top: -1px;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 900;
+  color: var(--default-white);
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0.24px;
+  line-height: 64px;
+}
+
+.legal-consultant .description {
+  position: relative;
+  align-self: stretch;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--default-white);
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  line-height: 32px;
+}
+
+.legal-consultant .overlap-5 {
+  position: absolute;
+  width: 1445px;
+  height: 943px;
+  top: 2166px;
+  left: 0;
+}
+
+.legal-consultant .testimonial-section {
+  position: absolute;
+  width: 1442px;
+  height: 610px;
+  top: 0;
+  left: 3px;
+}
+
+.legal-consultant .overlap-6 {
+  position: relative;
+  width: 1440px;
+  height: 610px;
+  background-color: #f2f7ff;
+}
+
+.legal-consultant .overlap-7 {
+  position: absolute;
+  width: 1179px;
+  height: 432px;
+  top: 48px;
+  left: 165px;
+}
+
+.legal-consultant .overlap-8 {
+  position: absolute;
+  width: 1179px;
+  height: 432px;
+  top: 0;
+  left: 0;
+}
+
+.legal-consultant .quote-mark {
+  position: absolute;
+  width: 176px;
+  height: 149px;
+  top: 0;
+  left: 1003px;
+}
+
+.legal-consultant .testimonials {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 30px;
+  position: absolute;
+  top: 128px;
+  left: 0;
+}
+
+.legal-consultant .overlap-group-wrapper-2 {
+  position: relative;
+  width: 540px;
+  height: 304px;
+}
+
+.legal-consultant .overlap-group-4 {
+  position: relative;
+  width: 580px;
+  height: 314px;
+  top: -10px;
+  left: -20px;
+}
+
+.legal-consultant .card {
+  position: absolute;
+  width: 580px;
+  height: 272px;
+  top: 0;
+  left: 0;
+}
+
+.legal-consultant .text-wrapper-9 {
+  position: absolute;
+  width: 476px;
+  top: 41px;
+  left: 52px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: var(--neutral-grey-8);
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.legal-consultant .text-wrapper-10 {
+  position: absolute;
+  width: 476px;
+  top: 77px;
+  left: 52px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--neutral-grey-6);
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+}
+
+.legal-consultant .client-details {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  position: absolute;
+  top: 258px;
+  left: 180px;
+}
+
+.legal-consultant .photo {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+}
+
+.legal-consultant .person-details {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.legal-consultant .text-wrapper-11 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--subtitle-subtitle-1-font-family);
+  font-weight: var(--subtitle-subtitle-1-font-weight);
+  color: var(--neutral-grey-8);
+  font-size: var(--subtitle-subtitle-1-font-size);
+  letter-spacing: var(--subtitle-subtitle-1-letter-spacing);
+  line-height: var(--subtitle-subtitle-1-line-height);
+  white-space: nowrap;
+  font-style: var(--subtitle-subtitle-1-font-style);
+}
+
+.legal-consultant .text-wrapper-12 {
+  position: relative;
+  width: fit-content;
+  font-family: var(--body-body-2-font-family);
+  font-weight: var(--body-body-2-font-weight);
+  color: var(--neutral-grey-6);
+  font-size: var(--body-body-2-font-size);
+  letter-spacing: var(--body-body-2-letter-spacing);
+  line-height: var(--body-body-2-line-height);
+  white-space: nowrap;
+  font-style: var(--body-body-2-font-style);
+}
+
+.legal-consultant .title-2 {
+  position: absolute;
+  width: 476px;
+  top: 41px;
+  left: 52px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: var(--neutral-grey-7);
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.legal-consultant .text-wrapper-13 {
+  position: relative;
+  width: fit-content;
+  font-family: var(--body-body-2-font-family);
+  font-weight: var(--body-body-2-font-weight);
+  color: var(--neutral-grey-7);
+  font-size: var(--body-body-2-font-size);
+  letter-spacing: var(--body-body-2-letter-spacing);
+  line-height: var(--body-body-2-line-height);
+  white-space: nowrap;
+  font-style: var(--body-body-2-font-style);
+}
+
+.legal-consultant .section-title-2 {
+  position: absolute;
+  width: 470px;
+  top: 13px;
+  left: 320px;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 700;
+  color: var(--neutral-grey-7);
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  line-height: 64px;
+}
+
+.legal-consultant .slider-controls {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  position: absolute;
+  top: 520px;
+  left: 693px;
+}
+
+.legal-consultant .ellipse-2 {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  background-color: var(--default-white);
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: var(--default-white);
+}
+
+.legal-consultant .ellipse-3 {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  border: 2px solid;
+  border-color: var(--default-white);
+  opacity: 0.5;
+}
+
+.legal-consultant .CTA {
+  position: absolute;
+  width: 1444px;
+  height: 374px;
+  top: 569px;
+  left: 0;
+}
+
+.legal-consultant .overlap-9 {
+  position: relative;
+  width: 1440px;
+  height: 374px;
+  background-color: var(--neutral-white);
+}
+
+.legal-consultant .button {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  width: 470px;
+  top: 37px;
+  left: 159px;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 700;
+  color: var(--neutral-grey-7);
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  line-height: 64px;
+}
+
+.legal-consultant .text-wrapper-14 {
+  position: absolute;
+  width: 821px;
+  top: 134px;
+  left: 165px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--neutral-grey-6);
+  font-size: 24px;
+  letter-spacing: 0.5px;
+  line-height: 36px;
+}
+
+.legal-consultant .group-6 {
+  position: absolute;
+  width: 330px;
+  height: 295px;
+  top: 41px;
+  left: 1017px;
+}
+
+.legal-consultant .group-wrapper {
+  position: absolute;
+  width: 219px;
+  height: 64px;
+  top: 270px;
+  left: 165px;
+}
+
+.legal-consultant .group-7 {
+  height: 64px;
+  background-color: #094b72;
+  border-radius: 8px;
+}
+
+.legal-consultant .group-8 {
+  position: relative;
+  width: 148px;
+  height: 36px;
+  top: 14px;
+  left: 37px;
+}
+
+.legal-consultant .call {
+  position: absolute;
+  width: 29px;
+  height: 32px;
+  top: 2px;
+  left: 0;
+}
+
+.legal-consultant .text-wrapper-15 {
+  position: absolute;
+  width: 100px;
+  top: 0;
+  left: 46px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: var(--neutral-grey-1);
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  line-height: 36px;
+}
+
+.legal-consultant .overlap-10 {
+  position: absolute;
+  width: 1440px;
+  height: 502px;
+  top: 3109px;
+  left: 0;
+}
+
+.legal-consultant .footer {
+  position: absolute;
+  width: 1440px;
+  height: 502px;
+  top: 0;
+  left: 0;
+  background-color: #094b72;
+}
+
+.legal-consultant .links {
+  display: inline-flex;
+  height: 231px;
+  align-items: flex-start;
+  gap: 30px;
+  position: absolute;
+  top: 99px;
+  left: 735px;
+  overflow: hidden;
+}
+
+.legal-consultant .col {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-bottom: -8.75px;
+}
+
+.legal-consultant .text-wrapper-16 {
+  position: relative;
+  width: 160px;
+  margin-top: -1px;
+  font-family: var(--heading-h6-font-family);
+  font-weight: var(--heading-h6-font-weight);
+  color: var(--text-gray-100);
+  font-size: var(--heading-h6-font-size);
+  letter-spacing: var(--heading-h6-letter-spacing);
+  line-height: var(--heading-h6-line-height);
+  font-style: var(--heading-h6-font-style);
+}
+
+.legal-consultant .list-items {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.legal-consultant .text-wrapper-17 {
+  position: relative;
+  width: 160px;
+  margin-top: -1px;
+  font-family: var(--body-body-1-font-family);
+  font-weight: var(--body-body-1-font-weight);
+  color: var(--text-gray-200);
+  font-size: var(--body-body-1-font-size);
+  letter-spacing: var(--body-body-1-letter-spacing);
+  line-height: var(--body-body-1-line-height);
+  font-style: var(--body-body-1-font-style);
+}
+
+.legal-consultant .features {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.legal-consultant .text-wrapper-18 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--body-body-1-font-family);
+  font-weight: var(--body-body-1-font-weight);
+  color: var(--text-gray-200);
+  font-size: var(--body-body-1-font-size);
+  letter-spacing: var(--body-body-1-letter-spacing);
+  line-height: var(--body-body-1-line-height);
+  white-space: nowrap;
+  font-style: var(--body-body-1-font-style);
+}
+
+.legal-consultant .text-wrapper-19 {
+  position: relative;
+  width: 160px;
+  font-family: var(--body-body-1-font-family);
+  font-weight: var(--body-body-1-font-weight);
+  color: var(--text-gray-200);
+  font-size: var(--body-body-1-font-size);
+  letter-spacing: var(--body-body-1-letter-spacing);
+  line-height: var(--body-body-1-line-height);
+  font-style: var(--body-body-1-font-style);
+}
+
+.legal-consultant .sub-footer {
+  position: absolute;
+  width: 1442px;
+  height: 69px;
+  top: 431px;
+  left: 0;
+}
+
+.legal-consultant .overlap-group-5 {
+  position: relative;
+  width: 1440px;
+  height: 69px;
+  background-color: #004d7b;
+}
+
+.legal-consultant .social-links {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  position: absolute;
+  top: 23px;
+  left: 1131px;
+}
+
+.legal-consultant .social-icons {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.legal-consultant .text-wrapper-20 {
+  position: absolute;
+  width: 230px;
+  top: 24px;
+  left: 165px;
+  font-family: var(--body-body-2-font-family);
+  font-weight: var(--body-body-2-font-weight);
+  color: var(--text-gray-300);
+  font-size: var(--body-body-2-font-size);
+  letter-spacing: var(--body-body-2-letter-spacing);
+  line-height: var(--body-body-2-line-height);
+  white-space: nowrap;
+  font-style: var(--body-body-2-font-style);
+}
+
+.legal-consultant .logo-2 {
+  width: 161px;
+  top: 73px;
+  left: 165px;
+  position: absolute;
+  height: 54px;
+}
+
+.legal-consultant .logo-3 {
+  width: 56px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 54px;
+}
+
+.legal-consultant .c-wrapper {
+  position: relative;
+  height: 56px;
+  top: -1px;
+  left: -1px;
+  background-color: var(--neutral-white);
+  border-radius: 28px;
+}
+
+.legal-consultant .c {
+  position: absolute;
+  width: 24px;
+  top: 23px;
+  left: 23px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: var(--brand-primary-shade-1);
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 12px;
+}
+
+.legal-consultant .text-wrapper-21 {
+  position: absolute;
+  width: 95px;
+  top: 17px;
+  left: 64px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: var(--neutral-grey-1);
+  font-size: 22px;
+  letter-spacing: 1.5px;
+  line-height: 23px;
+  white-space: nowrap;
+}
