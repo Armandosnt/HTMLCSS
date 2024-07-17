@@ -1,3 +1,5 @@
+@import 'reset.css';
+
 .frame.adaptive-legal-consultant {
   background-color: #ffffff;
   display: flex;
@@ -171,7 +173,7 @@
   line-height: 28px;
 }
 
-.frame .kelvin-kramer {
+.frame .greeting {
   position: absolute;
   top: 124px;
   left: 30px;
@@ -643,32 +645,49 @@
   all: unset;
   box-sizing: border-box;
   position: absolute;
-  width: 180px;
-  height: 42px;
+  width: 240px;
+  height: 80px;
   top: 145px;
-  left: 68px;
+  left: 50px;
+}
+.frame .group-wrapperadapt {
+  width: 219px;
+  height: 64px;
 }
 
-.frame .component {
-  height: 42px;
+.frame .buttontextadapt {
+  height: 64px;
+  background-color: #094b72;
+  border-radius: 8px;
 }
 
-.frame .UX-UI-wrapper {
+.frame .group-8adapt {
   position: relative;
-  width: 206px;
-  height: 78px;
-  top: -10px;
-  left: -12px;
-  background-image: url(./img/chip.svg);
-  background-size: 100% 100%;
+  width: 148px;
+  height: 36px;
+  top: 14px;
+  left: 37px;
 }
 
-.frame .UX-UI {
-  position: relative;
-  width: 122px;
-  height: 17px;
-  top: 23px;
-  left: 41px;
+.frame .calladapt {
+  position: absolute;
+  width: 29px;
+  height: 32px;
+  top: 2px;
+  left: 0;
+}
+
+.frame .text-wrapper-second15adapt {
+  position: absolute;
+  width: 100px;
+  top: 0;
+  left: 46px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: var(--neutral-grey-1);
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  line-height: 36px;
 }
 
 .frame .text-wrapper-43 {
@@ -684,27 +703,24 @@
   line-height: normal;
 }
 
-.frame .want-to-know-more-or {
+.frame .text-wrapper-14adapt {
   position: absolute;
-  top: 71px;
+  top: 50px;
   left: 10px;
   font-family: "Poppins", Helvetica;
   font-weight: 400;
   color: var(--black);
-  font-size: 18px;
+  font-size: 13px;
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
 }
 
 .frame .text-wrapper-44 {
-  position: absolute;
-  top: 0;
-  left: 79px;
   font-family: "Poppins", Helvetica;
   font-weight: 600;
   color: var(--black);
-  font-size: 34px;
+  font-size: 30px;
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
@@ -781,24 +797,6 @@
   width: 930px;
   height: 500px;
   top: 201px;
-  left: 336px;
-  object-fit: cover;
-}
-
-.frame .reebok-web-3 {
-  top: 858px;
-  position: absolute;
-  width: 930px;
-  height: 500px;
-  left: 336px;
-  object-fit: cover;
-}
-
-.frame .reebok-web-4 {
-  top: 1515px;
-  position: absolute;
-  width: 930px;
-  height: 500px;
   left: 336px;
   object-fit: cover;
 }
