@@ -150,16 +150,6 @@
   left: 30px;
 }
 
-.frame .ellipseadapt {
-  position: absolute;
-  width: 8px;
-  height: 8px;
-  top: 27px;
-  left: 107px;
-  background-color: #fda300;
-  border-radius: 4px;
-}
-
 .frame .padapt {
   position: absolute;
   width: 315px;

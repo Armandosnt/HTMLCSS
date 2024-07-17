@@ -665,14 +665,6 @@
   left: 0;
 }
 
-.legal-consultant .quote-mark {
-  position: absolute;
-  width: 176px;
-  height: 149px;
-  top: 0;
-  left: 1003px;
-}
-
 .legal-consultant .testimonials {
   display: inline-flex;
   align-items: flex-start;
