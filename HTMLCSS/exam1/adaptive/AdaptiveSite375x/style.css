@@ -1,5 +1,5 @@
 .frame.adaptive-legal-consultant {
-  background-color: transparent;
+  background-color: #ffffff;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -42,13 +42,13 @@
   line-height: normal;
 }
 
-.frame .div {
+.frame .divadapt {
   position: absolute;
   top: 126px;
   left: 30px;
   font-family: "Poppins", Helvetica;
   font-weight: 600;
-  color: #828282;
+  color: #ffffff;
   font-size: 34px;
   letter-spacing: 0;
   line-height: normal;
@@ -107,7 +107,7 @@
 }
 
 .frame .div-adapt2 {
-  background-color: #ffffff;
+  background-color: #fff;
   overflow-x: hidden;
   width: 375px;
   height: 3118px;
@@ -120,7 +120,7 @@
   height: 707px;
   top: 0;
   left: 0;
-  background-color: #f1f1f1;
+  background-color: #fff;
 }
 
 .frame .NAV {
@@ -140,25 +140,12 @@
   object-fit: cover;
 }
 
-.frame .LOGO {
+.frame .LOGOadapt {
   position: absolute;
-  width: 117px;
+  width: 130px;
   height: 35px;
-  top: 40px;
+  top: 40px;  
   left: 30px;
-}
-
-.frame .text-wrapper-33 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-family: "Poppins", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 32px;
-  letter-spacing: 0;
-  line-height: 32px;
-  white-space: nowrap;
 }
 
 .frame .ellipseadapt {
@@ -171,7 +158,7 @@
   border-radius: 4px;
 }
 
-.frame .p {
+.frame .padapt {
   position: absolute;
   width: 315px;
   top: 235px;
@@ -196,6 +183,14 @@
   line-height: normal;
 }
 
+.frame .descriptionlawyer {
+  position: absolute;
+  width: 582px;
+  height: 314px;
+  top: 620px;
+  left: -103px;
+}
+
 .frame .span {
   font-family: "Poppins", Helvetica;
   font-weight: 600;
@@ -204,26 +199,24 @@
   letter-spacing: 0;
 }
 
-.frame .text-wrapper-6 {
+.frame .text-wrapper-34 {
   font-size: 28px;
 }
 
-.frame .SECTION {
+.frame .overlapmain-groupadapt {
   position: absolute;
-  width: 315px;
-  height: 228px;
-  top: 767px;
-  left: 30px;
+  width: 383px;
+  height: 1307px;
+  top: 800px;
+  background-color: #f2f6ff;
 }
 
 .frame .ITEM {
-  position: relative;
-  width: 319px;
+  position: absolute;
+  width: 315px;
   height: 228px;
-}
-
-.frame .text-wrapper-34 {
-  font-size: 28px;
+  top: 0px;
+  left: 30px;
 }
 
 .frame .text-wrapper-35 {
@@ -239,33 +232,116 @@
   line-height: 28px;
 }
 
-.frame .UI-UX-design {
+.frame .imgadapt {
   position: absolute;
-  width: 313px;
-  top: 98px;
-  left: 0;
-  font-family: "Poppins", Helvetica;
-  font-weight: 600;
-  color: #000000;
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.frame .img {
-  position: absolute;
-  width: 68px;
-  height: 68px;
-  top: 0;
-  left: 0;
+  width: 450px;
+  height: 380px;
+  top: 20px;
+  left: -80px;
 }
 
 .frame .ITEM-2 {
-  top: 1343px;
+  display: flex;
+  flex-direction: column;
+  width: 285px;
+  align-items: flex-start;
+  gap: 18px;
+  padding: 24px;
   position: absolute;
-  width: 319px;
-  height: 228px;
-  left: 30px;
+  top: 350px;
+  left: 33px;
+  background-color: #fbfbfb;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 18px 58px 16px #0000000f;
+}
+
+.frame .pdescriptionadapt {
+  position: relative;
+  width: 206px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: var(--neutral-grey-5);
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+}
+
+.frame .thattextadapt-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: -62px;
+}
+
+.frame .text-wrapperadapt {
+  position: relative;
+  width: 269px;
+  margin-top: -1px;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 700;
+  color: var(--text);
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+}
+
+.frame .imgadapt2 {
+  position: relative;
+  width: 37px;
+  height: 37px;
+}
+
+.frame .ITEM-3 {
+  display: flex;
+  flex-direction: column;
+  width: 285px;
+  align-items: flex-start;
+  gap: 18px;
+  padding: 24px;
+  position: absolute;
+  top: 630px;
+  left: 33px;
+  background-color: #fbfbfb;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 18px 58px 16px #0000000f;
+}
+
+.frame .thattextadapt {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: -67px;
+}
+
+.frame .the-first {
+  position: relative;
+  width: 271px;
+  margin-top: -1px;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 700;
+  color: var(--text);
+  font-size: 22px;
+  letter-spacing: 0.3px;
+  line-height: 22px;
+}
+
+.frame .microsoft-patch-mana {
+  position: relative;
+  width: 210px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: var(--neutral-grey-5);
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
 }
 
 .frame .text-wrapper-36 {
@@ -289,8 +365,8 @@
   left: 2px;
 }
 
-.frame .ITEM-3 {
-  top: 1055px;
+.frame .ITEM-4 {
+  top: 870px;
   position: absolute;
   width: 319px;
   height: 228px;
@@ -300,98 +376,238 @@
 .frame .PORTFOLIO {
   position: absolute;
   width: 383px;
-  height: 1007px;
-  top: 1631px;
-  left: 0;
+  height: 570px;
+  top: 2100px;
+  background-color:#f2f6ff;
 }
 
 .frame .overlap-groupadapt {
   position: relative;
   width: 375px;
-  height: 1007px;
-  background-color: #f6f6f6;
+  height: 570px;
+  top: 0px;
+  background-color: #f2f6ff;
 }
 
-.frame .text-wrapper-9 {
+.frame .text-wrapper-41 {
   position: absolute;
-  top: 60px;
-  left: 116px;
+  width: 470px;
+  top: -80px;
+  left: -46px;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 700;
+  color: var(--neutral-grey-7);
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  line-height: 64px;
+}
+
+.frame .overlap-group-4adapt {
+  position: relative;
+  width: 410px;
+  height: 314px;
+  top: -10px;
+  left: -20px;
+}
+
+.frame .cardadapt {
+  position: absolute;
+  width: 350px;
+  height: 400px;
+  top: -140px;
+  left: 42px;
+}
+
+.frame .text-wrapper-1startadapt {
+  position: absolute;
+  width: 350px;
+  top: 0px;
+  left: 40px;
   font-family: "Poppins", Helvetica;
-  font-weight: 600;
-  color: #000000;
-  font-size: 34px;
+  font-weight: 500;
+  color: var(--neutral-grey-8);
+  font-size: 12px;
   text-align: center;
   letter-spacing: 0;
-  line-height: normal;
+  line-height: 28px;
 }
 
-.frame .text-wrapper-10 {
+.frame .text-wrapper-2startadapt {
   position: absolute;
-  top: 361px;
-  left: 38px;
+  width: 350px;
+  top: -60px;
+  left: 40px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: var(--neutral-grey-8);
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.frame .text-wrapper-comm1adapt {
+  position: absolute;
+  width: 300px;
+  top: 20px;
+  left: 60px;
   font-family: "Poppins", Helvetica;
   font-weight: 400;
-  color: #000000;
-  font-size: 18px;
+  color: var(--neutral-grey-6);
+  font-size: 8px;
   text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-  text-decoration: underline;
+  letter-spacing: 0.5px;
+  line-height: 24px;
 }
 
-.frame .text-wrapper-39 {
+.frame .text-wrapper-comm2adapt {
   position: absolute;
-  top: 643px;
-  left: 80px;
+  width: 300px;
+  top: -40px;
+  left: 60px;
   font-family: "Poppins", Helvetica;
   font-weight: 400;
-  color: #000000;
-  font-size: 18px;
+  color: var(--neutral-grey-6);
+  font-size: 8px;
   text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-  text-decoration: underline;
+  letter-spacing: 0.5px;
+  line-height: 24px;
 }
 
-.frame .text-wrapper-40 {
+.frame .client-detailsadapt {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
   position: absolute;
-  top: 920px;
-  left: 49px;
-  font-family: "Poppins", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 18px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-  text-decoration: underline;
+  top: 135px;
+  left: 180px;
 }
 
-.frame .element {
-  position: absolute;
-  width: 315px;
-  height: 170px;
-  top: 161px;
-  left: 30px;
+.frame .photoadapt {
+  position: relative;
+  width: 56px;
+  height: 56px;
   object-fit: cover;
 }
 
-.frame .reebok-web {
-  position: absolute;
-  width: 315px;
-  height: 170px;
-  top: 443px;
-  left: 30px;
+.frame .photoadapt2 {
+  top: -60px;
+  position: relative;
+  width: 56px;
+  height: 56px;
   object-fit: cover;
 }
 
-.frame .reebok-web-2 {
+.frame .person-detailsadapt {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .person-detailsadapt2 {
+  top: -60px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .text-wrapper-11adapt {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--subtitle-subtitle-1-font-family);
+  font-weight: var(--subtitle-subtitle-1-font-weight);
+  color: var(--neutral-grey-8);
+  font-size: var(--subtitle-subtitle-1-font-size);
+  letter-spacing: var(--subtitle-subtitle-1-letter-spacing);
+  line-height: var(--subtitle-subtitle-1-line-height);
+  white-space: nowrap;
+  font-style: var(--subtitle-subtitle-1-font-style);
+}
+
+.frame .text-wrapper-12adapt {
+  position: relative;
+  width: fit-content;
+  font-family: var(--body-body-2-font-family);
+  font-weight: var(--body-body-2-font-weight);
+  color: var(--neutral-grey-6);
+  font-size: var(--body-body-2-font-size);
+  letter-spacing: var(--body-body-2-letter-spacing);
+  line-height: var(--body-body-2-line-height);
+  white-space: nowrap;
+  font-style: var(--body-body-2-font-style);
+}
+
+.frame .cardadapt2 {
   position: absolute;
-  width: 315px;
-  height: 170px;
-  top: 720px;
-  left: 30px;
-  object-fit: cover;
+  width: 350px;
+  height: 400px;
+  top: -200px;
+  left: 42px;
+}
+
+.frame .title-2adapt {
+  position: absolute;
+  width: 476px;
+  top: 41px;
+  left: 52px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: var(--neutral-grey-7);
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.frame .text-wrapper-13adapt {
+  position: relative;
+  width: fit-content;
+  font-family: var(--body-body-2-font-family);
+  font-weight: var(--body-body-2-font-weight);
+  color: var(--neutral-grey-7);
+  font-size: var(--body-body-2-font-size);
+  letter-spacing: var(--body-body-2-letter-spacing);
+  line-height: var(--body-body-2-line-height);
+  white-space: nowrap;
+  font-style: var(--body-body-2-font-style);
+  font-size: 13px;
+}
+
+.frame .achievementadapt {
+  position: absolute;
+  width: 380px;
+  height: 80px;
+  top: 2590px;
+  left: 0;
+}
+
+.frame .BGadapt {
+  position: absolute;
+  width: 380px;
+  height: 80px;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.frame .patterns-wrapperadapt {
+  position: relative;
+  height: 376px;
+  background-color: #094b72;
+}
+
+.frame .patternsadapt {
+  position: absolute;
+  width: 1440px;
+  height: 356px;
+  top: 0;
+  left: 0;
 }
 
 .frame .CONTACTS {
@@ -423,7 +639,7 @@
   left: 0;
 }
 
-.frame .button {
+.frame .buttonadapt {
   all: unset;
   box-sizing: border-box;
   position: absolute;
@@ -455,7 +671,7 @@
   left: 41px;
 }
 
-.frame .text-wrapper-41 {
+.frame .text-wrapper-43 {
   position: absolute;
   top: -7px;
   left: -7px;
@@ -481,7 +697,7 @@
   line-height: normal;
 }
 
-.frame .text-wrapper-42 {
+.frame .text-wrapper-44 {
   position: absolute;
   top: 0;
   left: 79px;
@@ -494,7 +710,7 @@
   line-height: normal;
 }
 
-.frame.legal-consultant {
+.frame.legal-consultantadapt {
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
@@ -516,13 +732,6 @@
   height: 2172px;
   top: 1178px;
   left: -1px;
-}
-
-.frame .overlap-group-2 {
-  position: relative;
-  width: 1601px;
-  height: 2172px;
-  background-color: #f1f1f1;
 }
 
 .frame .text-wrapper-15 {
@@ -617,14 +826,6 @@
   left: 215px;
 }
 
-.frame .ITEM-4 {
-  left: 0;
-  position: absolute;
-  width: 374px;
-  height: 228px;
-  top: 0;
-}
-
 .frame .text-wrapper-19 {
   position: absolute;
   width: 370px;
@@ -648,22 +849,6 @@
   font-size: 24px;
   letter-spacing: 0;
   line-height: normal;
-}
-
-.frame .ITEM-5 {
-  left: 400px;
-  position: absolute;
-  width: 374px;
-  height: 228px;
-  top: 0;
-}
-
-.frame .ITEM-6 {
-  left: 800px;
-  position: absolute;
-  width: 374px;
-  height: 228px;
-  top: 0;
 }
 
 .frame .HEADER {
@@ -703,18 +888,6 @@
   font-size: 14px;
   letter-spacing: 0;
   line-height: 28px;
-}
-
-.frame .kelvin-kramer-2 {
-  font-weight: 600;
-  font-size: 44px;
-  line-height: normal;
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-family: "Poppins", Helvetica;
-  color: #000000;
-  letter-spacing: 0;
 }
 
 .frame .navbar {
@@ -854,24 +1027,6 @@
   left: 201px;
 }
 
-.frame .button-2 {
-  all: unset;
-  box-sizing: border-box;
-  position: absolute;
-  width: 182px;
-  height: 42px;
-  top: 185px;
-  left: 81px;
-}
-
-.frame .overlap-group-3 {
-  position: relative;
-  width: 180px;
-  height: 42px;
-  background-image: url(./img/chip-bg.svg);
-  background-size: 100% 100%;
-}
-
 .frame .text-wrapper-27 {
   position: absolute;
   top: 7px;
@@ -990,7 +1145,7 @@
   height: 37px;
 }
 
-.frame .thattext {
+.frame .frame {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1040,7 +1195,7 @@
   box-shadow: 0px 18px 58px 16px #0000000f;
 }
 
-.frame .thattext-2 {
+.frame .frame-2 {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1159,16 +1314,6 @@
   left: 0;
   background-color: #6da7ff1a;
   border-radius: 405.5px;
-}
-
-.frame .ellipse {
-  position: relative;
-  width: 633px;
-  height: 633px;
-  top: 6px;
-  left: 68px;
-  background-color: #6da7ff1a;
-  border-radius: 316.61px;
 }
 
 .frame .creating-a-brand {
@@ -1846,7 +1991,7 @@
   left: 0;
 }
 
-.frame .text-wrapper-15 {
+.frame .text-wrapper-second15 {
   position: absolute;
   width: 100px;
   top: 0;
@@ -1878,7 +2023,7 @@
 
 .frame .links {
   display: inline-flex;
-  height: 231px;
+  height: 250px;
   align-items: flex-start;
   gap: 30px;
   position: absolute;
@@ -1897,10 +2042,10 @@
   margin-bottom: -8.75px;
 }
 
-.frame .text-wrapper-16 {
+.frame .text-wrapper-second16 {
   position: relative;
   width: 160px;
-  margin-top: -1px;
+  margin-top: 40px;
   font-family: var(--heading-h6-font-family);
   font-weight: var(--heading-h6-font-weight);
   color: var(--text-gray-100);
@@ -1919,7 +2064,7 @@
   flex: 0 0 auto;
 }
 
-.frame .text-wrapper-17 {
+.frame .text-wrapper-second17 {
   position: relative;
   width: 160px;
   margin-top: -1px;
@@ -1940,7 +2085,7 @@
   flex: 0 0 auto;
 }
 
-.frame .text-wrapper-18 {
+.frame .text-wrapper-second18 {
   position: relative;
   width: fit-content;
   margin-top: -1px;
@@ -1954,7 +2099,7 @@
   font-style: var(--body-body-1-font-style);
 }
 
-.frame .text-wrapper-19 {
+.frame .text-wrapper-second19 {
   position: relative;
   width: 160px;
   font-family: var(--body-body-1-font-family);
@@ -1996,7 +2141,7 @@
   height: 24px;
 }
 
-.frame .text-wrapper-20 {
+.frame .text-wrapper-second20 {
   position: absolute;
   width: 230px;
   top: 24px;
@@ -2049,7 +2194,7 @@
   line-height: 12px;
 }
 
-.frame .text-wrapper-21 {
+.frame .text-wrapper-second21 {
   position: absolute;
   width: 95px;
   top: 17px;
@@ -2072,7 +2217,7 @@
   }
 }
 
-@media (min-width: 375px) and (max-width: 1599px) {
+@media (min-width: 375px) and (max-width: 1499px) {
   .frame.adaptive-legal-consultant {
     display: none !important;
   }
@@ -2081,7 +2226,7 @@
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1500px) {
   .frame.adaptive-legal-consultant {
     display: none !important;
   }
