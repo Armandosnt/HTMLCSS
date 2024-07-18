@@ -1,0 +1,382 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+}
+
+.s1 {
+  width: 100%;
+  height: 185px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.s2 {
+  width: 100%;
+  opacity: 0.150000006;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border: 1.5px solid rgb(112, 112, 112);
+}
+
+.s3 {
+  width: 100%;
+  opacity: 0.150000006;
+  position: absolute;
+  top: 185px;
+  left: 0px;
+  border: 2px solid rgb(112, 112, 112);
+}
+
+.s4 {
+  width: 209px;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 57px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.s5 {
+  width: 70px;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.s6 {
+  width: 70px;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.s7 {
+  width: 70px;
+  height: 70px;
+  background: rgb(243, 252, 247);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.s8 {
+  width: 32px;
+  height: 26px;
+  background: rgb(243, 252, 247);
+  opacity: 1;
+  position: absolute;
+  top: 22px;
+  left: 19px;
+}
+
+.s9 {
+  width: 117px;
+  color: rgb(29, 29, 31);
+  position: absolute;
+  top: 13px;
+  left: 92px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+
+.s10 {
+  width: 117px;
+  color: rgb(29, 29, 31);
+  position: absolute;
+  top: 42px;
+  left: 92px;
+  font-family: Inter;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 0.75;
+  text-align: left;
+}
+
+.s11 {
+  width: 240px;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 57px;
+  left: 321px;
+  overflow: hidden;
+}
+
+.s12 {
+  width: 70px;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.s13 {
+  width: 70px;
+  height: 70px;
+  background: rgb(243, 252, 247);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.s14 {
+  width: 26px;
+  height: 22px;
+  background: rgb(243, 252, 247);
+  opacity: 1;
+  position: absolute;
+  top: 24px;
+  left: 22px;
+}
+
+.s15 {
+  width: 128px;
+  color: rgb(29, 29, 31);
+  position: absolute;
+  top: 13px;
+  left: 92px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+
+.s16 {
+  width: 148px;
+  color: rgb(29, 29, 31);
+  position: absolute;
+  top: 42px;
+  left: 92px;
+  font-family: Inter;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 0.75;
+  text-align: left;
+}
+
+.s17 {
+  width: 214px;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 57px;
+  left: 643px;
+  overflow: hidden;
+}
+
+.s18 {
+  width: 70px;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.s19 {
+  width: 70px;
+  height: 70px;
+  background: rgb(243, 252, 247);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.s20 {
+  width: 19px;
+  height: 19px;
+  background: rgb(243, 252, 247);
+  opacity: 1;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
+.s21 {
+  width: 122px;
+  color: rgb(29, 29, 31);
+  position: absolute;
+  top: 13px;
+  left: 92px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+
+.s22 {
+  width: 122px;
+  color: rgb(29, 29, 31);
+  position: absolute;
+  top: 42px;
+  left: 92px;
+  font-family: Inter;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 0.75;
+  text-align: left;
+}
+
+.s23 {
+  width: 205px;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 57px;
+  left: 964px;
+  overflow: hidden;
+}
+
+.s24 {
+  width: 70px;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.s25 {
+  width: 70px;
+  height: 70px;
+  background: rgb(243, 252, 247);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.s26 {
+  width: 26px;
+  height: 22px;
+  background: rgb(243, 252, 247);
+  opacity: 1;
+  position: absolute;
+  top: 23px;
+  left: 22px;
+}
+
+.s27 {
+  width: 113px;
+  color: rgb(29, 29, 31);
+  position: absolute;
+  top: 13px;
+  left: 92px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+
+.s28 {
+  width: 99px;
+  color: rgb(29, 29, 31);
+  position: absolute;
+  top: 42px;
+  left: 92px;
+  font-family: Inter;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 0.75;
+  text-align: left;
+}/*# sourceMappingURL=base.css.map */
