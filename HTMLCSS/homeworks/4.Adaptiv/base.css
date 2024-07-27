@@ -49,7 +49,112 @@ table {
   padding-top: 30px;
 }
 
+.benefit__blocksadapt .blockadapt {
+  width: 230px;
+  height: 209px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-top: 30px;
+}
+
 body {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(167, 132, 194);
+}
+
+.adaptivesite {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  background-color: #FFFFFF;
+}
+
+.div-adapt {
+  background-color: #fff;
+  overflow-x: hidden;
+  width: 375px;
+  height: 3118px;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  background-color: #FFFFFF;
+}
+
+.containeradapt {
+  width: 500px;
+  margin: auto;
+  margin-top: auto;
+  max-width: 375px;
+}
+
+.titleadapt {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 142%;
+  letter-spacing: 0.01em;
+  color: rgb(37, 43, 66);
+  text-align: center;
+}
+
+.aboutadapt {
+  width: 500px;
+  margin: auto;
+  margin-top: auto;
+  max-width: 375px;
+  height: 150px;
+}
+
+.descriptionadapt {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0.01em;
+  color: rgb(115, 115, 115);
+  text-align: center;
+  width: 270px;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.subtittleadapt {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 143%;
+  letter-spacing: 0.01em;
+  color: rgb(115, 115, 115);
+  text-align: center;
+  width: 511px;
+}
+
+.benefit__blocksadapt {
+  display: flex;
+  margin: auto;
+  margin-left: 75px;
+  margin-right: 195px;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+.site {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(167, 132, 194);
+}
+
+.div {
+  overflow: hidden;
+  width: 1440px;
+  height: 3609px;
+  position: relative;
   font-family: "Montserrat", sans-serif;
   background-color: rgb(167, 132, 194);
 }
@@ -68,6 +173,14 @@ body {
   letter-spacing: 0.01em;
   color: rgb(37, 43, 66);
   text-align: center;
+}
+
+.about {
+  width: 511px;
+  margin: auto;
+  margin-top: auto;
+  max-width: 511px;
+  height: 150px;
 }
 
 .description {
@@ -103,12 +216,17 @@ body {
   flex-wrap: nowrap;
 }
 @media (max-width: 375px) {
-  .benefits {
+  .site {
+    display: none !important;
+  }
+}
+@media (min-width: 375px) and (max-width: 1399px) {
+  .site {
     display: none !important;
   }
 }
 @media (min-width: 1400px) {
-  .benefitsadapt {
+  .adaptivesite {
     display: none !important;
   }
 }/*# sourceMappingURL=base.css.map */

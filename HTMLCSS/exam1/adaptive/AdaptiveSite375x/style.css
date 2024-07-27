@@ -1,4 +1,41 @@
-@import 'reset.css';
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
 
 .frame.adaptive-legal-consultant {
   background-color: #ffffff;
@@ -38,7 +75,7 @@
   left: 30px;
   font-family: "Poppins", Helvetica;
   font-weight: 600;
-  color: #828282;;
+  color: #828282;
   font-size: 34px;
   letter-spacing: 0;
   line-height: normal;
@@ -139,14 +176,15 @@
   height: 367px;
   top: 340px;
   left: 40px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .frame .LOGOadapt {
   position: absolute;
   width: 130px;
   height: 35px;
-  top: 40px;  
+  top: 40px;
   left: 30px;
 }
 
@@ -245,7 +283,7 @@
   background-color: #fbfbfb;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0px 18px 58px 16px #0000000f;
+  box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.0588235294);
 }
 
 .frame .pdescriptionadapt {
@@ -300,7 +338,7 @@
   background-color: #fbfbfb;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0px 18px 58px 16px #0000000f;
+  box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.0588235294);
 }
 
 .frame .thattextadapt {
@@ -370,7 +408,7 @@
   width: 383px;
   height: 570px;
   top: 2100px;
-  background-color:#f2f6ff;
+  background-color: #f2f6ff;
 }
 
 .frame .overlap-groupadapt {
@@ -480,7 +518,8 @@
   position: relative;
   width: 56px;
   height: 56px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .frame .photoadapt2 {
@@ -488,7 +527,8 @@
   position: relative;
   width: 56px;
   height: 56px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .frame .person-detailsadapt {
@@ -510,6 +550,7 @@
 
 .frame .text-wrapper-11adapt {
   position: relative;
+  width: -moz-fit-content;
   width: fit-content;
   margin-top: -1px;
   font-family: var(--subtitle-subtitle-1-font-family);
@@ -524,6 +565,7 @@
 
 .frame .text-wrapper-12adapt {
   position: relative;
+  width: -moz-fit-content;
   width: fit-content;
   font-family: var(--body-body-2-font-family);
   font-weight: var(--body-body-2-font-weight);
@@ -559,6 +601,7 @@
 
 .frame .text-wrapper-13adapt {
   position: relative;
+  width: -moz-fit-content;
   width: fit-content;
   font-family: var(--body-body-2-font-family);
   font-weight: var(--body-body-2-font-weight);
@@ -640,6 +683,7 @@
   top: 145px;
   left: 50px;
 }
+
 .frame .group-wrapperadapt {
   width: 219px;
   height: 64px;
@@ -788,7 +832,8 @@
   height: 500px;
   top: 201px;
   left: 336px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .frame .text-wrapper-18 {
@@ -854,7 +899,8 @@
   height: 613px;
   top: 157px;
   left: 891px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .frame .CONTENT {
@@ -1124,7 +1170,7 @@
   background-color: #fbfbfb;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0px 18px 58px 16px #0000000f;
+  box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.0588235294);
 }
 
 .frame .img {
@@ -1180,7 +1226,7 @@
   background-color: #fbfbfb;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0px 18px 58px 16px #0000000f;
+  box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.0588235294);
 }
 
 .frame .frame-2 {
@@ -1300,7 +1346,7 @@
   height: 811px;
   top: 50px;
   left: 0;
-  background-color: #6da7ff1a;
+  background-color: rgba(109, 167, 255, 0.1019607843);
   border-radius: 405.5px;
 }
 
@@ -1310,7 +1356,8 @@
   height: 974px;
   top: 0;
   left: 84px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .frame .hero-title {
@@ -1440,6 +1487,7 @@
 
 .frame .text-wrapper-7 {
   position: relative;
+  width: -moz-fit-content;
   width: fit-content;
   margin-top: -1px;
   font-family: "Poppins", Helvetica;
@@ -1610,7 +1658,8 @@
   position: relative;
   width: 1px;
   height: 96px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .frame .label-2 {
@@ -1789,7 +1838,8 @@
   position: relative;
   width: 56px;
   height: 56px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .frame .person-details {
@@ -1802,6 +1852,7 @@
 
 .frame .text-wrapper-11 {
   position: relative;
+  width: -moz-fit-content;
   width: fit-content;
   margin-top: -1px;
   font-family: var(--subtitle-subtitle-1-font-family);
@@ -1816,6 +1867,7 @@
 
 .frame .text-wrapper-12 {
   position: relative;
+  width: -moz-fit-content;
   width: fit-content;
   font-family: var(--body-body-2-font-family);
   font-weight: var(--body-body-2-font-weight);
@@ -1843,6 +1895,7 @@
 
 .frame .text-wrapper-13 {
   position: relative;
+  width: -moz-fit-content;
   width: fit-content;
   font-family: var(--body-body-2-font-family);
   font-weight: var(--body-body-2-font-weight);
@@ -2075,6 +2128,7 @@
 
 .frame .text-wrapper-second18 {
   position: relative;
+  width: -moz-fit-content;
   width: fit-content;
   margin-top: -1px;
   font-family: var(--body-body-1-font-family);
@@ -2196,3 +2250,27 @@
   white-space: nowrap;
 }
 
+@media (max-width: 375px) {
+  .frame.div-adaptive-legal-consultant {
+    display: none !important;
+  }
+  .frame.legal-consultant {
+    display: none !important;
+  }
+}
+@media (min-width: 375px) and (max-width: 1499px) {
+  .frame.adaptive-legal-consultant {
+    display: none !important;
+  }
+  .frame.legal-consultant {
+    display: none !important;
+  }
+}
+@media (min-width: 1500px) {
+  .frame.adaptive-legal-consultant {
+    display: none !important;
+  }
+  .frame.div-adaptive-legal-consultant {
+    display: none !important;
+  }
+}/*# sourceMappingURL=style.css.map */

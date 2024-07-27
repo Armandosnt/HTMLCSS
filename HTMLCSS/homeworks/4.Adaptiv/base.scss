@@ -1,4 +1,4 @@
-@import './reset.scss';
+@import 'reset.scss';
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 $title: rgb(37, 43, 66);
@@ -17,6 +17,17 @@ $grey: rgb(115, 115, 115);
     padding-top: 30px;
 }
 
+%blockadaptive{
+  width: 230px;
+  height: 209px;
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-top: 30px;
+}
+
 @mixin text($fw,$fz,$ln,$ls,$color){
     font-weight: $fw;
     font-size: $fz;
@@ -29,6 +40,84 @@ body{
     font-family: "Montserrat", sans-serif;
     background-color: rgb(167, 132, 194)
 }
+.adaptivesite{
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  background-color: #FFFFFF;
+}
+
+.div-adapt {
+  background-color: #fff;
+  overflow-x: hidden;
+  width: 375px;
+  height: 3118px;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  background-color: #FFFFFF;
+}
+.containeradapt {
+  width: 500px;
+  margin: auto;
+  margin-top: auto;
+  max-width: 375px;
+}
+
+.titleadapt {
+  @include text(700,40px, 142% ,0.01em ,$title );
+}
+.aboutadapt {
+  width: 500px;
+  margin: auto;
+  margin-top: auto;
+  max-width: 375px;
+  height: 150px;
+}
+.descriptionadapt {
+  @include text(500, 14px, 143%, 0.01em ,$description);
+    width: 270px;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.subtittleadapt {
+  @include text(500, 16px, 143%, 0.01em ,$grey);
+    width: 511px;
+}
+
+.benefit__blocksadapt {
+  display: flex;
+  margin: auto;
+  margin-left: 75px;
+  margin-right: 195px;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: nowrap;
+  flex-direction: column;
+
+ .blockadapt{
+    @extend %blockadaptive; 
+  }
+}
+.site {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(167, 132, 194)
+}
+.div {
+  overflow: hidden;
+  width: 1440px;
+  height: 3609px;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(167, 132, 194)
+}
 .container{
       width: 1050px;
       margin: auto;
@@ -38,6 +127,13 @@ body{
 .title{
     @include text(700,40px, 142% ,0.01em ,$title );
     }
+.about {
+  width: 511px;
+  margin: auto;
+  margin-top: auto;
+  max-width: 511px;
+  height: 150px;
+}
 .description{
     @include text(500, 14px, 143%, 0.01em ,$description);
     width: 511px;
@@ -64,12 +160,17 @@ body{
 }
 
 @media (max-width: 375px) {
-  .benefits{
+  .site{
+    display: none !important;
+  }
+}
+@media (min-width: 375px) and (max-width: 1399px) {
+  .site {
     display: none !important;
   }
 }
 @media (min-width: 1400px) {
-  .benefitsadapt {
+  .adaptivesite {
     display: none !important;
   }
 }
