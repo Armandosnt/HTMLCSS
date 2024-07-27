@@ -1,4 +1,4 @@
-@import 'reset.css';
+@import 'reset.scss';
 
 .frame.adaptive-legal-consultant {
   background-color: #ffffff;
@@ -2194,5 +2194,32 @@
   letter-spacing: 1.5px;
   line-height: 23px;
   white-space: nowrap;
+}
+
+@media (max-width: 374px) {
+  .frame.div-adaptive-legal-consultant {
+    display: none !important;
+  }
+  .frame.legal-consultant {
+    display: none !important;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 1499px) {
+  .frame.adaptive-legal-consultant {
+    display: none !important;
+  }
+  .frame.legal-consultant{
+    display: none !important;
+  }
+}
+
+@media (min-width: 1500px) {
+  .frame.adaptive-legal-consultant {
+    display: none !important;
+  }
+  .frame.div-adaptive-legal-consultant {
+    display: none !important;
+  }
 }
 

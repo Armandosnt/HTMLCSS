@@ -1,0 +1,76 @@
+@import './reset.scss';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+$title: rgb(37, 43, 66);
+$description: rgb(115, 115, 115);
+$white: white;
+$grey: rgb(115, 115, 115);
+
+%block{
+    width: 230px;
+    height: 209px;
+    background-color: $white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-top: 30px;
+}
+
+@mixin text($fw,$fz,$ln,$ls,$color){
+    font-weight: $fw;
+    font-size: $fz;
+    line-height: $ln;
+    letter-spacing: $ls;
+    color:$color;
+    text-align: center;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(167, 132, 194)
+}
+.container{
+      width: 1050px;
+      margin: auto;
+      margin-top: auto;
+      max-width: 750px;
+}
+.title{
+    @include text(700,40px, 142% ,0.01em ,$title );
+    }
+.description{
+    @include text(500, 14px, 143%, 0.01em ,$description);
+    width: 511px;
+    margin: auto;
+    padding-top: 10px;
+}
+.subtittle{
+    @include text(500, 16px, 143%, 0.01em ,$grey);
+    width: 511px;
+}
+.benefit__blocks{
+    display: flex;
+    margin: auto;
+    margin-left: 195px;
+    margin-right: 195px;
+    margin-top: 50px;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: nowrap;
+
+.block{
+        @extend %block;
+    }
+}
+
+@media (max-width: 375px) {
+  .benefits{
+    display: none !important;
+  }
+}
+@media (min-width: 1400px) {
+  .benefitsadapt {
+    display: none !important;
+  }
+}
+
